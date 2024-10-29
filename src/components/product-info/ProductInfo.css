@@ -1,0 +1,7 @@
+.selectors-wrapper {
+    border: 1px solid #30a46c;
+    border-radius: 8px;
+}
+.add-button {
+    cursor: pointer;
+}

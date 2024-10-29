@@ -1,0 +1,34 @@
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    text-align: center !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+    color: gray;
+    height: 10px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 25px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #30a46c;
+}
+
+@media (min-width:1024px) {
+    .swiper {
+        width: 55%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: inline;
+    }
+}
